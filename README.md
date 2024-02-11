@@ -1,20 +1,17 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Setting up a SIEM in Microsoft Azure</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+In this lab, I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. We will observe live attacks (RDP Brute Force) from all around the world. We will use a custom PowerShell script to look up the attackers Geolocation information and plot it on the Azure Sentinel Map!
 <br />
 
+<h2>Environments Used / Exposure to </h2>
 
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
+- <b>Azure Portal</b> 
+- <b>Azure Sentinal</b>
+- <b>Kusto Query Language (KQL)</b>
+- <b>Network Security Groups</b>
 
 <h2>Program walk-through:</h2>
 

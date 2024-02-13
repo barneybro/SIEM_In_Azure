@@ -36,7 +36,7 @@ search for wf.msc which is Windows firewall. Click the properties and turn Domai
 <br />
 <br />
 <p align="center">
-Windows Powershell ISE on VM: [https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1] <br/>
+Windows Powershell ISE on VM: [Link](https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1) <br/>
  <p align="center">Open Windows Powershell On your VM. Create a new file and paste the source code from the link above inside, make sure to save to desktop.This code pretty much looks through Event Viewer,
  of people who failed to login, gets their geodata for them and creates a new log file for them. The only part you will have to change is the API Key at the top. You can go to ip.geolocation.io, sign up and you will get a free API key.
  The location of the log is in C:\ProgramData\, and it is called failed_rdp.log. </p>
